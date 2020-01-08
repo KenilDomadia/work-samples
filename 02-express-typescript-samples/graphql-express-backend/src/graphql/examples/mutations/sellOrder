@@ -1,0 +1,49 @@
+mutation sdcsdvsdvsv {
+  SellOrder(input: {
+    userId: "59fdc7e9f228cb6fd3fc9f75"
+    sourceCurrency: bitcoin
+    targetCurrency: fiat
+    creditQuantity: 2000
+    rate: 391597.80
+    taxRate: 0.18
+    commissionRate: 0.0025
+  }){
+    status
+    order{
+      userId
+      sourceCurrency
+      targetCurrency
+      rate
+      taxRate
+      commissionRate
+      creditQuantity
+      debitQuantity
+    }
+    user {
+      id
+      email
+      firstName
+      lastName
+      gender
+      account {
+        userId
+        id
+        wallets {
+          balance
+          currencyType
+          promotionalBalance
+        }
+      }
+      orders {
+        userId
+        sourceCurrency
+        targetCurrency
+        rate
+        taxRate
+        commissionRate
+        creditQuantity
+        debitQuantity
+    	}
+    }
+  }
+}

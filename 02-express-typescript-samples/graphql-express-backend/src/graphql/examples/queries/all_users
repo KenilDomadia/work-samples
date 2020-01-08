@@ -1,0 +1,39 @@
+query fetchAllUsers {
+  users {
+    id
+    firstName
+    lastName
+    lastActiveOn
+    gender
+    email
+    emailVerified
+		birthDate
+    countryCode
+    country
+    status
+    cellVerified
+    cell
+    kycVerified
+    account {
+      id
+      userId
+      wallets{
+        currencyType
+        balance
+        promotionalBalance
+      }
+    }
+    orders {
+      userId
+      type
+      sourceCurrency
+      targetCurrency
+      creditQuantity
+      debitQuantity
+      rate
+      commissionRate
+      orderOpenDate
+      orderCloseDate
+    }
+  }
+}

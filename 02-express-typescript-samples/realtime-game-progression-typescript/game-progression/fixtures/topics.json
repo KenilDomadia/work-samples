@@ -1,0 +1,1857 @@
+[
+  {
+    "topicId": "Fact Flow.Addition.Double Digit Addition",
+    "topicName": "doubleDigitAddition",
+    "difficulty": 60,
+    "displayOrder": 2,
+    "input": {
+      "attributes": {
+        "question": "${A}+${B}"
+      },
+      "tags": [
+        "topic:addition",
+        "topic:singleDigitAddition",
+        "difficulty: 60",
+        "displayOrder:2"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "10-20"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-12"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} + ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "true",
+        "repeat": "40"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Addition.Plus 0 Facts",
+    "topicName": "plus0Facts",
+    "difficulty": 10,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}+${B}"
+      },
+      "tags": [
+        "topic:addition",
+        "topic:plus0Facts",
+        "difficulty: 10"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} + ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===0 || ${B}===0 && !(${A}===0 && ${B}===0)",
+        "repeat": "5"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Addition.Plus 10 Facts",
+    "topicName": "plus10Facts",
+    "difficulty": 20,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}+${B}"
+      },
+      "tags": [
+        "topic:addition",
+        "topic:plus10Facts",
+        "difficulty: 20"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} + ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===10 || ${B}===10",
+        "repeat": "5"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Addition.Plus 1 Facts",
+    "topicName": "plus1Facts",
+    "difficulty": 10,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}+${B}"
+      },
+      "tags": [
+        "topic:addition",
+        "topic:plus1Facts",
+        "difficulty: 10"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "1-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "1-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} + ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===1 || ${B}===1",
+        "repeat": "5"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Addition.Plus 2 Facts",
+    "topicName": "plus2Facts",
+    "difficulty": 15,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}+${B}"
+      },
+      "tags": [
+        "topic:addition",
+        "topic:plus2Facts",
+        "difficulty: 15"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "1-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "1-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} + ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===2 || ${B}===2",
+        "repeat": "10"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Addition.Plus 9 Facts",
+    "topicName": "plus9Facts",
+    "difficulty": 30,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}+${B}"
+      },
+      "tags": [
+        "topic:addition",
+        "topic:plus9Facts",
+        "difficulty: 30"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} + ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===9 || ${B}===9",
+        "repeat": "17"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Addition.Plus Doubles",
+    "topicName": "plusDoubles",
+    "difficulty": 30,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}+${B}"
+      },
+      "tags": [
+        "topic:addition",
+        "topic:plusDoubles",
+        "difficulty: 30"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} + ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===${B}",
+        "repeat": "9"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Addition.Plus Leftovers",
+    "topicName": "plusLeftovers",
+    "difficulty": 60,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}+${B}"
+      },
+      "tags": [
+        "topic:addition",
+        "topic:plusLeftovers",
+        "difficulty: 60"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "3-8"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "3-8"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} + ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "( ${A}+${B}===8 || ${A}+${B}===12 || ${A}+${B}===13 || ${A}+${B}===14 ) && ${A}!=${B} && ( ${A}!=${B}+1 && ${B}!=${A}+1 )",
+        "repeat": "10"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Addition.Plus Near Doubles",
+    "topicName": "plusNearDoubles",
+    "difficulty": 60,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}+${B}"
+      },
+      "tags": [
+        "topic:addition",
+        "topic:plusNearDoubles",
+        "difficulty: 60"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} + ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===${B}+1 || ${B}===${A}+1",
+        "repeat": "16"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Addition.Plus To Get 10 Facts",
+    "topicName": "plusToGet10Facts",
+    "difficulty": 30,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}+${B}"
+      },
+      "tags": [
+        "topic:addition",
+        "topic:plusToGet10Facts",
+        "difficulty: 30"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} + ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}+${B}===10",
+        "repeat": "7"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Addition.Plus To Get 9 Or 11 Facts",
+    "topicName": "plusToGet9_11Facts",
+    "difficulty": 40,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}+${B}"
+      },
+      "tags": [
+        "topic:addition",
+        "topic:plusToGet9_11Facts",
+        "difficulty: 40"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} + ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}+${B}===9 || ${A}+${B}===11",
+        "repeat": "12"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Addition.Plus What Equals",
+    "topicName": "plusWhatEquals",
+    "difficulty": 50,
+    "displayOrder": 3,
+    "input": {
+      "attributes": {
+        "question": "${A} plus what equals ${C}",
+        "answer": "${B}"
+      },
+      "tags": [
+        "topic:addition",
+        "topic:plusWhatEquals",
+        "difficulty: 50",
+        "displayOrder:3"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-9"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-9"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} + ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "",
+        "repeat": "30"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Addition.Single Digit Addition",
+    "topicName": "singleDigitAddition",
+    "difficulty": 50,
+    "displayOrder": 1,
+    "input": {
+      "attributes": {
+        "question": "${A}+${B}"
+      },
+      "tags": [
+        "topic:addition",
+        "topic:singleDigitAddition",
+        "difficulty: 50",
+        "displayOrder:1"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-9"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-9"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} + ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "true",
+        "repeat": "40"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide 10 Facts",
+    "topicName": "divide10Facts",
+    "difficulty": 20,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divide10Facts",
+        "difficulty:20"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "1-100"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-100"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${B}===10 && ${A}%${B}===0 && ${A}!==10",
+        "repeat": "9"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide 1 Facts",
+    "topicName": "divide1Facts",
+    "difficulty": 10,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divide1Facts",
+        "difficulty:10"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${B}===1",
+        "repeat": "5"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide 2 Facts",
+    "topicName": "divide2Facts",
+    "difficulty": 15,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divide2Facts",
+        "difficulty:15"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "1-20"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-20"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${B}===2 && ${A}%${B}===0",
+        "repeat": "10"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide 3 Facts",
+    "topicName": "divide3Facts",
+    "difficulty": 35,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divide3Facts",
+        "difficulty:35"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "1-30"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-30"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${B}===3 && ${A}%${B}===0 && ${A}!==3",
+        "repeat": "9"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide 4 Facts",
+    "topicName": "divide4Facts",
+    "difficulty": 35,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divide4Facts",
+        "difficulty:35"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "1-40"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-40"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${B}===4 && ${A}%${B}===0 && ${A}!==4",
+        "repeat": "9"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide 5 Facts",
+    "topicName": "divide5Facts",
+    "difficulty": 30,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divide5Facts",
+        "difficulty:30"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "1-50"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-50"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${B}===5 && ${A}%${B}===0 && ${A}!==5",
+        "repeat": "9"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide 9 Facts",
+    "topicName": "divide9Facts",
+    "difficulty": 60,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divide9Facts",
+        "difficulty:60"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "1-90"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-90"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${B}===9 && ${A}%${B}===0 && ${A}!==9",
+        "repeat": "9"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide Leftovers",
+    "topicName": "divideLeftovers",
+    "difficulty": 70,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divideLeftovers",
+        "difficulty: 70"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-100"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-100"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "(${A}===0&&${B}===6)||(${A}===0&&${B}===7)||(${A}===0&&${B}===8) || (${A}===36&&${B}===6)||(${A}===48&&${B}===8)||(${A}===42&&${B}===6)||(${A}===49&&${B}===7)||(${A}===56&&${B}===8)||(${A}===64&&${B}===8) || (${A}===42&&${B}===6)||(${A}===48&&${B}===6)||(${A}===42&&${B}===7)||(${A}===56&&${B}===7)",
+        "repeat": "12"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide Same Number Facts",
+    "topicName": "divideSameNumberFacts",
+    "difficulty": 10,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divideSameNumberFacts",
+        "difficulty:10"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "3-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "3-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${B}===${A}",
+        "repeat": "5"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide To Get 10 Facts",
+    "topicName": "divideToGet10Facts",
+    "difficulty": 25,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divideToGet10Facts",
+        "difficulty:25"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-100"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-100"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}/${B}===10",
+        "repeat": "9"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide To Get 2 Facts",
+    "topicName": "divideToGet2Facts",
+    "difficulty": 20,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divideToGet2Facts",
+        "difficulty:20"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-20"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-20"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "(${A}>${B})&&(${A}/${B})===2",
+        "repeat": "9"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide To Get 3 Facts",
+    "topicName": "divideToGet3Facts",
+    "difficulty": 50,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divideToGet3Facts",
+        "difficulty:50"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-30"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-30"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}/${B}===3",
+        "repeat": "9"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide To Get 4 Facts",
+    "topicName": "divideToGet4Facts",
+    "difficulty": 50,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divideToGet4Facts",
+        "difficulty:50"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-40"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-40"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}/${B}===4",
+        "repeat": "9"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide To Get 5 Facts",
+    "topicName": "divideToGet5Facts",
+    "difficulty": 40,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divideToGet5Facts",
+        "difficulty:40"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-50"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-50"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}/${B}===5",
+        "repeat": "9"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Division.Divide To Get 9 Facts",
+    "topicName": "divideToGet9Facts",
+    "difficulty": 70,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}/${B}"
+      },
+      "tags": [
+        "topic:division",
+        "topic:divideToGet9Facts",
+        "difficulty:70"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-90"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-90"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} / ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}/${B}===9",
+        "repeat": "9"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Multiplication.Multiply 0 Facts",
+    "topicName": "multiply0Facts",
+    "difficulty": 10,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}*${B}"
+      },
+      "tags": [
+        "topic:multiplication",
+        "topic:multiply0Facts",
+        "difficulty: 10"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} * ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "(${A}===0 || ${B}===0) && !(${A}===0 && ${B}===0)",
+        "repeat": "5"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Multiplication.Multiply 10 Facts",
+    "topicName": "multiply10Facts",
+    "difficulty": 30,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}*${B}"
+      },
+      "tags": [
+        "topic:multiplication",
+        "topic:multiply10Facts",
+        "difficulty: 30"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} * ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===10 || ${B}===10",
+        "repeat": "5"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Multiplication.Multiply 1 Facts",
+    "topicName": "multiply1Facts",
+    "difficulty": 10,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}*${B}"
+      },
+      "tags": [
+        "topic:multiplication",
+        "topic:multiply1Facts",
+        "difficulty: 10"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} * ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===1 || ${B}===1 && !(${A}===1 && ${B}===1)",
+        "repeat": "5"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Multiplication.Multiply 2 Facts",
+    "topicName": "multiply2Facts",
+    "difficulty": 20,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}*${B}"
+      },
+      "tags": [
+        "topic:multiplication",
+        "topic:multiply2Facts",
+        "difficulty: 20"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} * ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===2 || ${B}===2",
+        "repeat": "10"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Multiplication.Multiply 3 Facts",
+    "topicName": "multiply3Facts",
+    "difficulty": 50,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}*${B}"
+      },
+      "tags": [
+        "topic:multiplication",
+        "topic:multiply3Facts",
+        "difficulty: 50"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} * ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===3 || ${B}===3",
+        "repeat": "17"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Multiplication.Multiply 4 Facts",
+    "topicName": "multiply4Facts",
+    "difficulty": 50,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}*${B}"
+      },
+      "tags": [
+        "topic:multiplication",
+        "topic:multiply4Facts",
+        "difficulty: 50"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} * ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===4 || ${B}===4",
+        "repeat": "17"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Multiplication.Multiply 5 Facts",
+    "topicName": "multiply5Facts",
+    "difficulty": 40,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}*${B}"
+      },
+      "tags": [
+        "topic:multiplication",
+        "topic:multiply5Facts",
+        "difficulty: 40"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} * ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===5 || ${B}===5",
+        "repeat": "17"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Multiplication.Multiply 9 Facts",
+    "topicName": "multiply9Facts",
+    "difficulty": 70,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}*${B}"
+      },
+      "tags": [
+        "topic:multiplication",
+        "topic:multiply9Facts",
+        "difficulty: 70"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} * ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===9 || ${B}===9",
+        "repeat": "17"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Multiplication.Multiply Left Overs",
+    "topicName": "multiplyLeftOvers",
+    "difficulty": 70,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}*${B}"
+      },
+      "tags": [
+        "topic:multiplication",
+        "topic:multiplyLeftovers",
+        "difficulty: 70"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "6-8"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "6-8"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} * ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}!=${B}",
+        "repeat": "6"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Multiplication.Single Digit Multiplication",
+    "topicName": "singleDigitMultiplication",
+    "difficulty": 60,
+    "displayOrder": 1,
+    "input": {
+      "attributes": {
+        "question": "${A}*${B}"
+      },
+      "tags": [
+        "topic:multiplication",
+        "topic:singleDigitMultiplication",
+        "difficulty: 60",
+        "displayOrder:1"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-9"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-9"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} * ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "true",
+        "repeat": "40"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Multiplication.Square Numbers",
+    "topicName": "squareNumbers",
+    "difficulty": 60,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}*${B}"
+      },
+      "tags": [
+        "topic:multiplication",
+        "topic:squareNumbers",
+        "difficulty: 60"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "3-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "3-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} * ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===${B}",
+        "repeat": "8"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Double Digit Subtraction",
+    "topicName": "doubleDigitSubtraction",
+    "difficulty": 60,
+    "displayOrder": 2,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:doubleDigitSubtraction",
+        "difficulty: 60",
+        "displayOrder:2"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "10-20"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-12"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}>=${B}",
+        "repeat": "40"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus 0 Facts",
+    "topicName": "minus0Facts",
+    "difficulty": 10,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minus0Facts",
+        "difficulty: 10"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}>=${B} && ${B}===0 && ${A}!==0",
+        "repeat": "5"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus 10 Facts",
+    "topicName": "minus10Facts",
+    "difficulty": 35,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minus10Facts",
+        "difficulty: 35"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-20"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}>=${B} && ${B}===10",
+        "repeat": "9"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus 1 Facts",
+    "topicName": "minus1Facts",
+    "difficulty": 10,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minus1Facts",
+        "difficulty: 10"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}>=${B} && ${B}===1",
+        "repeat": "5"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus 2 Facts",
+    "topicName": "minus2Facts",
+    "difficulty": 20,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minus2Facts",
+        "difficulty: 20"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}>=${B} && ${B}===2",
+        "repeat": "5"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus 9 Facts",
+    "topicName": "minus9Facts",
+    "difficulty": 45,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minus9Facts",
+        "difficulty: 45"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-20"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}>=${B} && ${B}===9",
+        "repeat": "10"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus Doubles",
+    "topicName": "minusDoubles",
+    "difficulty": 35,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minusDoubles",
+        "difficulty: 35"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "1-20"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "1-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${B}==${A}/2",
+        "repeat": "10"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus From 10 Facts",
+    "topicName": "minusFrom10Facts",
+    "difficulty": 50,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minusFrom10Facts",
+        "difficulty: 50"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===10",
+        "repeat": "11"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus From 9 Or 11 Facts",
+    "topicName": "minusFrom9_11Facts",
+    "difficulty": 60,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minusToGet9Facts",
+        "difficulty: 60"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-11"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-11"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}>=${B} && ( ${A}===9 || ${A}===11 )",
+        "repeat": "22"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus Leftovers",
+    "topicName": "minusLeftovers",
+    "difficulty": 70,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minusLeftovers",
+        "difficulty: 70"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "8-14"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "3-8"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "( ${A}===8 && (${B}===3 || ${B}===5)) ||  ( ${A}==13 && (${B}==8 || ${B}==5)) || ( ${A}==14 && (${B}==6 || ${B}==8)) || ( ${A}==12 && (${B}==4 || ${B}==5 || ${B}==4 || ${B}==7 || ${B}==8))",
+        "repeat": "10"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus Near Doubles",
+    "topicName": "minusNearDoubles",
+    "difficulty": 50,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minusNearDoubles",
+        "difficulty: 50"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-20"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "2-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===2*${B}-1",
+        "repeat": "9"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus To Get 0 Facts",
+    "topicName": "minusToGet0Facts",
+    "difficulty": 10,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minusToGet0Facts",
+        "difficulty: 10"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "1-10"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}===${B} && ${A}-${B}===0",
+        "repeat": "5"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus To Get 10 Facts",
+    "topicName": "minusToGet10Facts",
+    "difficulty": 30,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minusToGet10Facts",
+        "difficulty: 30"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-20"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}>${B} && ${A}-${B}===10",
+        "repeat": "11"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus To Get 1 Facts",
+    "topicName": "minusToGet1Facts",
+    "difficulty": 15,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minusToGet1Facts",
+        "difficulty: 15"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "2-11"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}>=${B} && ${A}-${B}===1",
+        "repeat": "5"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus To Get 2 Facts",
+    "topicName": "minusToGet2Facts",
+    "difficulty": 25,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minusToGet2Facts",
+        "difficulty: 25"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-12"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}>${B} && ${A}-${B}===2",
+        "repeat": "7"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Minus To Get 9 Facts",
+    "topicName": "minusToGet9Facts",
+    "difficulty": 70,
+    "displayOrder": null,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:minusToGet9Facts",
+        "difficulty: 70"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-20"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-10"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}>${B} && ${A}-${B}===9",
+        "repeat": "11"
+      }
+    }
+  },
+  {
+    "topicId": "Fact Flow.Subtraction.Single Digit Subtraction",
+    "topicName": "singleDigitSubtraction",
+    "difficulty": 50,
+    "displayOrder": 1,
+    "input": {
+      "attributes": {
+        "question": "${A}-${B}"
+      },
+      "tags": [
+        "topic:subtraction",
+        "topic:singleDigitSubtraction",
+        "difficulty: 50",
+        "displayOrder:1"
+      ],
+      "metadata": {
+        "${A}": {
+          "type": "Range",
+          "value": "0-9"
+        },
+        "${B}": {
+          "type": "Range",
+          "value": "0-9"
+        },
+        "${C}": {
+          "type": "Eval",
+          "value": "${A} - ${B}"
+        },
+        "allowDuplicates": false,
+        "condition": "${A}>${B}",
+        "repeat": "40"
+      }
+    }
+  }
+]

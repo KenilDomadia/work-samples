@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  font-style: normal;
+  src: local('ProximaNova Regular'), local('ProximaNova-Regular'),
+    url(https://dndw32r4edmw5.cloudfront.net/assets/frontend-js/fonts/proximanova/proximanova-regular.otf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'ProximaNova-SemiBold';
+  font-style: normal;
+  src: local('ProximaNova SemiBold'), local('ProximaNova-SemiBold'),
+    url(https://dndw32r4edmw5.cloudfront.net/assets/frontend-js/fonts/proximanova/proxima-nova-semibold.otf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  font-style: normal;
+  font-weight: 200;
+  src: local('ProximaNova Thin'), local('ProximaNova-Regular'),
+    url(https://dndw32r4edmw5.cloudfront.net/assets/frontend-js/fonts/proximanova/proxima-nova-thin.otf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  font-style: normal;
+  font-weight: 300;
+  src: local('ProximaNova Light'), local('ProximaNova-Regular'),
+    url(https://dndw32r4edmw5.cloudfront.net/assets/frontend-js/fonts/proximanova/proxima-nova-thin.otf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('ProximaNova Regular'), local('ProximaNova-Regular'),
+    url(https://dndw32r4edmw5.cloudfront.net/assets/frontend-js/fonts/proximanova/proximanova-regular.otf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  font-style: normal;
+  font-weight: 500;
+  src: local('ProximaNova SemiBold'), local('ProximaNova-SemiBold'),
+    url(https://dndw32r4edmw5.cloudfront.net/assets/frontend-js/fonts/proximanova/proxima-nova-semibold.otf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'ChronicaPro-Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('ChronicaPro Light'), local('ChronicaPro-Light'),
+    url(https://dndw32r4edmw5.cloudfront.net/assets/frontend-js/fonts/chronicapro/ChronicaPro-Light.ttf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'ChronicaPro-Light';
+  font-style: normal;
+  font-weight: lighter;
+  src: local('ChronicaPro Light'), local('ChronicaPro-Light'),
+    url(https://dndw32r4edmw5.cloudfront.net/assets/frontend-js/fonts/chronicapro/ChronicaPro-Light.ttf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'ChronicaPro';
+  font-style: normal;
+  src: local('ChronicaPro Regular'), local('ChronicaPro-Regular'),
+    url(https://dndw32r4edmw5.cloudfront.net/assets/frontend-js/fonts/chronicapro/ChronicaPro-Regular.ttf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'ChronicaPro-Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local('ChronicaPro Medium'), local('ChronicaPro-Medium'),
+    url(https://dndw32r4edmw5.cloudfront.net/assets/frontend-js/fonts/chronicapro/ChronicaPro-Medium.ttf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'ChronicaPro-Medium';
+  font-style: normal;
+  font-weight: bold;
+  src: local('ChronicaPro Medium'), local('ChronicaPro-Medium'),
+    url(https://dndw32r4edmw5.cloudfront.net/assets/frontend-js/fonts/chronicapro/ChronicaPro-Medium.ttf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'ChronicaPro-Bold';
+  font-style: normal;
+  font-weight: 600;
+  src: local('ChronicaPro Bold'), local('ChronicaPro-Bold'),
+    url(https://dndw32r4edmw5.cloudfront.net/assets/frontend-js/fonts/chronicapro/ChronicaPro-Bold.ttf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'ChronicaPro-Bold';
+  font-style: normal;
+  font-weight: bolder;
+  src: local('ChronicaPro Bold'), local('ChronicaPro-Bold'),
+    url(https://dndw32r4edmw5.cloudfront.net/assets/frontend-js/fonts/chronicapro/ChronicaPro-Bold.ttf)
+      format('truetype');
+}

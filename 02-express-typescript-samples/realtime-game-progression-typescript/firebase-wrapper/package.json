@@ -1,0 +1,24 @@
+{
+  "name": "@playpowerlabs/ppl-factflow-utils",
+  "version": "1.0.49",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "prepare": "rm -rf lib && npm version patch && npm run build"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "aws-sdk": "^2.520.0",
+    "cross-fetch": "^3.0.4",
+    "firebase": "^6.5.0",
+    "lodash": "^4.17.11",
+    "moment-timezone": "^0.5.26",
+    "node-fetch": "^2.6.0",
+    "random-string": "^0.2.0",
+    "twilio": "^3.33.4",
+    "typescript": "^3.3.3",
+    "uuidv4": "^5.0.1"
+  }
+}

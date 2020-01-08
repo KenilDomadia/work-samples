@@ -1,0 +1,14 @@
+## Compiled JavaScript files
+**/*.js
+**/*.js.map
+
+# Typescript v1 declaration files
+typings/
+
+lib/
+node_modules/
+firebase-debug.log
+
+.vscode/
+.idea
+yarn-error.log

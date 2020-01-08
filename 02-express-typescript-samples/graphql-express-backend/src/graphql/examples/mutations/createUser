@@ -1,0 +1,29 @@
+mutation createUser {
+  CreateUser(input: {
+    email: "priyesh.dev26@gmail.com",
+    cell: "9898334381",
+    firstName: "Priyesh",
+    "gender": "male",
+    lastName: "Patel",
+    birthDate: "2017-10-08T14:26:04.714Z",
+    countryCode: "+91",
+    country: "India",
+    cellVerified: true
+  }) {
+    status
+    user{
+      id
+      birthDate
+      cell
+      email
+      gender
+      account {
+        userId
+        wallets {
+          currencyType
+          balance
+        }
+      }
+    }
+  }
+}

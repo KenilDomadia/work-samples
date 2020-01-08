@@ -1,0 +1,40 @@
+mutation sdcsdvsdvsv {
+  PurchaseOrder(input: {
+    userId: "59f988e7cdf6913922906a87"
+    currency: bitcoin
+    amount: 2000
+    rate: 391598.00
+    taxRate: 0.18
+    commissionRate: 0.0025
+  }){
+    status
+    order{
+      userId
+      units
+    }
+    user {
+      id
+      email
+      firstName
+      lastName
+      gender
+      account {
+        userId
+        id
+        wallets {
+          balance
+          currencyType
+          promotionalBalance
+        }
+      }
+      orders {
+        userId
+        type
+        currency
+        amount
+        rate
+        units
+      }
+    }
+  }
+}
