@@ -27,7 +27,7 @@
     "googleapis": "^36.0.0",
     "http-aws-es": "^6.0.0",
     "json2csv": "^4.3.3",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "moment-timezone": "^0.5.26",
     "prismic-javascript": "^2.0.1",
     "random-string": "^0.2.0",
