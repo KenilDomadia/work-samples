@@ -14,7 +14,7 @@
   "main": "lib/backend/src/index.js",
   "dependencies": {
     "@sendgrid/mail": "^6.3.1",
-    "aws-sdk": "^2.520.0",
+    "aws-sdk": "^2.814.0",
     "bodybuilder": "^2.2.17",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.5",
