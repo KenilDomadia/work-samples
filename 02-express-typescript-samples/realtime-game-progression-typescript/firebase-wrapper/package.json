@@ -14,7 +14,7 @@
     "cross-fetch": "^3.0.4",
     "firebase": "^6.5.0",
     "lodash": "^4.17.11",
-    "moment-timezone": "^0.5.26",
+    "moment-timezone": "^0.5.35",
     "node-fetch": "^2.6.0",
     "random-string": "^0.2.0",
     "twilio": "^3.33.4",
